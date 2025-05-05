@@ -35,12 +35,10 @@ export default function LoginScreen() {
       </View>
 
       <TouchableOpacity activeOpacity={0.85} style={styles.button} onPress={handleLogin}>
-        <Text style={styles.buttonText}>Login</Text>
+        <Text style={styles.buttonText}>Get OTP</Text>
       </TouchableOpacity>
 
-      <TouchableOpacity activeOpacity={0.85} style={styles.signupLink} onPress={() => router.push('/signup')}>
-        <Text style={styles.signupText}>Don't have an account? Sign up</Text>
-      </TouchableOpacity>
+     
     </View>
   );
 }
@@ -78,7 +76,6 @@ const styles = StyleSheet.create({
     borderWidth: 1,
     borderRadius: 12,
     paddingLeft: 15,
-    marginBottom: 5,
     fontSize: 16,
     color: '#333',
   },
@@ -93,14 +90,5 @@ const styles = StyleSheet.create({
     color: '#fff',
     fontSize: 16,
     fontWeight: '600',
-  },
-  signupLink: {
-    marginTop: 15,
-    alignItems: 'center',
-  },
-  signupText: {
-    fontFamily: 'JosefinSans-Regular',
-    fontSize: 14,
-    color: "#000A26",
-  },
+  }
 });

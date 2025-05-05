@@ -40,7 +40,7 @@ export default function Layout() {
           drawerLabel: 'Home',
           title: '',
           headerRight: () => (
-            <Text style={{ marginRight: 20, fontWeight: '600', fontSize: 16, color:"white",   fontFamily: 'JosefinSans-Regular', }}>
+            <Text style={{ marginRight: 15, fontWeight: '600', fontSize: 16, color:"white",   fontFamily: 'JosefinSans-Regular', }}>
               MotoRep-Mechanic
             </Text>
           ),
@@ -49,13 +49,24 @@ export default function Layout() {
           ),
         }}
       />
-      <Drawer.Screen
-        name="signup"
-        options={{
-          drawerItemStyle: { display: 'none' },
-          headerShown: false,
-        }}
-      />
+<Drawer.Screen
+  name="MechanicPayment"
+  options={{
+    drawerLabel: 'MechanicPayment',
+    title: '',
+    headerRight: () => (
+      <Text style={{ marginRight: 15, fontWeight: '600', fontSize: 16, color:"white",   fontFamily: 'JosefinSans-Regular', }}>
+        MotoRep-Mechanic
+      </Text>
+    ),
+    drawerIcon: ({ color, size }) => (
+      <Ionicons name="card-outline" size={size} color={color} />
+    ),
+  }}
+/>
+
+
     </Drawer>
+    
   );
 }
