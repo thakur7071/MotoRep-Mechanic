@@ -40,7 +40,7 @@ export default function Layout() {
           drawerLabel: 'Home',
           title: '',
           headerRight: () => (
-            <Text style={{ marginRight: 15, fontWeight: '600', fontSize: 16, color:"white",   fontFamily: 'JosefinSans-Regular', }}>
+            <Text style={{ marginRight: 18, fontWeight: '600', fontSize: 16, color:"white",   fontFamily: 'JosefinSans-Regular', }}>
               MotoRep-Mechanic
             </Text>
           ),
@@ -55,7 +55,7 @@ export default function Layout() {
     drawerLabel: 'MechanicPayment',
     title: '',
     headerRight: () => (
-      <Text style={{ marginRight: 15, fontWeight: '600', fontSize: 16, color:"white",   fontFamily: 'JosefinSans-Regular', }}>
+      <Text style={{ marginRight: 18, fontWeight: '600', fontSize: 16, color:"white",   fontFamily: 'JosefinSans-Regular', }}>
         MotoRep-Mechanic
       </Text>
     ),
@@ -66,7 +66,7 @@ export default function Layout() {
 />
 
 
-<Drawer.Screen
+   <Drawer.Screen
         name="(authotp)/otp"
         options={{
           drawerItemStyle: { display: 'none' },
