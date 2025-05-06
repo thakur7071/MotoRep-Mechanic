@@ -66,6 +66,15 @@ export default function Layout() {
 />
 
 
+<Drawer.Screen
+        name="(authotp)/otp"
+        options={{
+          drawerItemStyle: { display: 'none' },
+          headerShown: false,
+        }}
+      />
+
+
     </Drawer>
     
   );

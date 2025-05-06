@@ -31,7 +31,7 @@ export default function TabLayout() {
       />
      
       <Tabs.Screen
-        name="login"
+        name="(authlogin)/login"
         options={{
           title: '',
           tabBarIcon: ({ color }) => <IconSymbol size={28} name="person.fill" color={color} />,
