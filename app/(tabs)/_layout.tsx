@@ -25,7 +25,17 @@ export default function TabLayout() {
         name="index"
         options={{
           title: '',
-          tabBarIcon: ({ color }) => <IconSymbol size={28} name="house.fill" color={color} />,
+          tabBarIcon: ({ color }) => <IconSymbol size={22} name="house.fill" color={color} />,
+        }}
+      />
+
+<Tabs.Screen
+        name="Booking"
+        options={{
+          title: '',
+          tabBarIcon: ({ color }) => (
+            <Ionicons name="clipboard" size={22} color={color} />
+          ),
         }}
       />
      
@@ -33,7 +43,7 @@ export default function TabLayout() {
         name="Profile"
         options={{
           title: '',
-          tabBarIcon: ({ color }) => <IconSymbol size={28} name="person.fill" color={color} />,
+          tabBarIcon: ({ color }) => <IconSymbol size={22} name="person.fill" color={color} />,
         }}
       />
 
@@ -43,7 +53,7 @@ export default function TabLayout() {
         options={{
           title: '',
           tabBarIcon: ({ color }) => (
-            <Ionicons name="log-in-outline" size={28} color={color} />
+            <Ionicons name="log-in-outline" size={22} color={color} />
           ),
         }}
       />
